@@ -1,13 +1,14 @@
-import os
 from os import walk
+from FileManager import makeDir
 from ConvertTextToPdf import textToPdf
+from tkinter.filedialog import askdirectory
 
-def makeDir(directory):
-    if not os.path.exists(directory):
-        os.makedirs(directory)
+input_path = askdirectory()
+outputh_path = askdirectory()
 
-input_path = 'E:\\Wictor\\Workspace\\Python\\FilesToPdf\\Input'
-outputh_path = 'E:\\Wictor\\Workspace\\Python\\FilesToPdf\\Output'
+#input_path = 'E:\\Wictor\\Workspace\\Python\\FilesToPdf\\Input'
+#outputh_path = 'E:\\Wictor\\Workspace\\Python\\FilesToPdf\\Output'
+
 allow_extensions = ["txt", "php", "js"]
 
 for (dirpath, dirnames, filenames) in walk(input_path):
