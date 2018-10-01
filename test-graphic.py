@@ -1,4 +1,4 @@
+from tkinter.filedialog import askdirectory
 
-
-
-print(filename)
+filename = askdirectory()
+print()

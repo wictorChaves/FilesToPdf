@@ -1,3 +1,4 @@
+import sys
 from os import walk
 from FileManager import makeDir
 from ConvertTextToPdf import textToPdf
@@ -5,6 +6,10 @@ from tkinter.filedialog import askdirectory
 
 input_path = askdirectory()
 outputh_path = askdirectory()
+
+if type(input_path) != str or type(outputh_path) != str or input_path == '' or outputh_path == '':
+    print("Pasta inválida!")
+    sys.exit(0)
 
 #input_path = 'E:\\Wictor\\Workspace\\Python\\FilesToPdf\\Input'
 #outputh_path = 'E:\\Wictor\\Workspace\\Python\\FilesToPdf\\Output'
