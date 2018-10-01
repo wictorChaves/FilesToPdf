@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4c41ac6-5b00-4b55-ac7e-c040b1e68d11" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Output/ScrollItemSubstance.class.js.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Output/ScrollItemSubstance.class.js.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/aqui.txt.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Output/aqui.txt.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/outro teste/teste.txt.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Output/outro teste/teste.txt.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Start.py" beforeDir="false" afterPath="$PROJECT_DIR$/Start.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-graphic.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-graphic.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,8 +16,8 @@
       <file leaf-file-name="Start.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Start.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+            <state relative-caret-position="282">
+              <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -34,15 +30,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
               <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test-graphic.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test-graphic.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -111,11 +98,6 @@
             <path>
               <item name="FilesToPdf" type="b2602c69:ProjectViewProjectNode" />
               <item name="FilesToPdf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FilesToPdf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FilesToPdf" type="462c0819:PsiDirectoryNode" />
-              <item name="Output" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -243,10 +225,10 @@
     <frame x="-8" y="-8" width="1376" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25336322" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25336322" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32973805" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32973805" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -338,8 +320,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Start.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+        <state relative-caret-position="282">
+          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>

@@ -29,5 +29,3 @@ for (dirpath, dirnames, filenames) in walk(input_path):
             new_file = new_dir + file + ".pdf"
             old_file = old_dir + file
             textToPdf(old_file, new_file)
-
-
