@@ -1,5 +1,6 @@
 import sys
 from tkinter import messagebox
+from ConfigFile import allow_extensions
 from tkinter.filedialog import askdirectory
 from ConvertTreeFilesToPdf import ConvertTreeFilesToPdf
 
@@ -9,7 +10,7 @@ messagebox.showinfo("Source destiny", "Select the destiny folder")
 outputh_path = askdirectory()
 
 convertTreeFilesToPdf = ConvertTreeFilesToPdf(input_path, outputh_path)
-convertTreeFilesToPdf.setAllowExtensions(["txt", "php", "js", "html", "htm", "json"])
+convertTreeFilesToPdf.setAllowExtensions(allow_extensions)
 
 if not convertTreeFilesToPdf.verifyPaths():
     messagebox.showerror("Error", "Invalid folder!")
@@ -21,3 +22,6 @@ except Exception as e:
     messagebox.showerror("Error", str(e))
     print(str(e))
     sys.exit(0)
+
+
+
