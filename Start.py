@@ -14,5 +14,10 @@ convertTreeFilesToPdf.setAllowExtensions(["txt", "php", "js", "html", "htm", "js
 if not convertTreeFilesToPdf.verifyPaths():
     messagebox.showerror("Error", "Invalid folder!")
     sys.exit(0)
-
-convertTreeFilesToPdf.execute()
+try:
+    convertTreeFilesToPdf.execute()
+    messagebox.showinfo("Finisher", "Process completed")
+except Exception as e:
+    messagebox.showerror("Error", str(e))
+    print(str(e))
+    sys.exit(0)
