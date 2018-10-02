@@ -1,5 +1,8 @@
 import pdfkit
 import os
+import logging
+
+logging.basicConfig(filename='process.log',level=logging.DEBUG)
 
 options = {
     'page-size': 'Letter',
@@ -19,9 +22,13 @@ options = {
     #'load-error-handling': 'ignore'
 }
 
+logging.basicConfig(filename="logfilename.log", level=logging.INFO)
+
 def textToPdf(source, destiny):
+    logging.debug('Processing the ' + source + ' file ')
     os.rename(source, source + '.txt')
     path_wkthmltopdf = r'C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe'
     config = pdfkit.configuration(wkhtmltopdf=path_wkthmltopdf)
     pdfkit.from_file(source + '.txt', destiny, configuration=config, options=options)
     os.rename(source + '.txt', source)
+    logging.debug('Finished')
