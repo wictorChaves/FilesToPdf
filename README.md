@@ -20,13 +20,13 @@ and
 **Linux**
 
 ```sh
-# pip install pdfkit
+$ sudo pip install pdfkit
 ```
     
 and 
 
 ```sh
-# apt-get install wkhtmltopdf
+$ sudo apt-get install wkhtmltopdf
 ```
 
  Configuration
