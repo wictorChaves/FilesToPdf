@@ -20,7 +20,7 @@ and
 **Linux**
 
 ```sh
-# python -m pip install pdfkit
+# pip install pdfkit
 ```
     
 and 
