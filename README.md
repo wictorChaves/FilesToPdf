@@ -4,13 +4,27 @@ Code to convert text file to pdf
 
 Tested in Python 3.7.0 on windows
 
-# Config
+# ConfigFile.py file
 
-Choose the extensions allowed in the "Start.py" files
+Choose the extensions allowed
+
+    allow_extensions = ["txt", "php", "js", "html", "htm", "json"]
+    
+PDF Setup Page
+
+    options_pdf = { ...
+    
+and path of wkthmltopdf 
+
+    path_wkthmltopdf = r'C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe'
 
 # Need to install
 
     python -m pip install pdfkit
+    
+and 
+
+    dependency/wkhtmltox-0.12.5-1.msvc2015-win64.exe
 
 # How to use
 
