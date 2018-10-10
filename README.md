@@ -69,4 +69,4 @@ MIT
  Stackoverflow
 ----
 
-[Help me improve my code](https://pt.stackoverflow.com/questions/333694/como-fazer-com-que-o-pdfkit-ignore-as-extens%C3%B5es/333706?noredirect=1#comment675052_333706)
+[Help me improve my code](https://pt.stackoverflow.com/questions/333694/como-fazer-com-que-o-pdfkit-ignore-as-extens%C3%B5es/333706)
