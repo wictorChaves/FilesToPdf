@@ -7,6 +7,8 @@ Code to convert multiple text files to pdf
  Need to install
 ----
 
+**Windows**
+
 ```cmd
  python -m pip install pdfkit
 ```
@@ -15,6 +17,17 @@ and
 
 [dependency/wkhtmltox-0.12.5-1.msvc2015-win64.exe](dependency/wkhtmltox-0.12.5-1.msvc2015-win64.exe)
 
+**Linux**
+
+```sh
+# python -m pip install pdfkit
+```
+    
+and 
+
+```sh
+# apt-get install wkhtmltopdf
+```
 
  Configuration
 ----
