@@ -13,9 +13,8 @@ Code to convert multiple text files to pdf
     
 and 
 
-```cmd
- dependency/wkhtmltox-0.12.5-1.msvc2015-win64.exe
-```
+[dependency/wkhtmltox-0.12.5-1.msvc2015-win64.exe](dependency/wkhtmltox-0.12.5-1.msvc2015-win64.exe)
+
 
  Configuration
 ----
